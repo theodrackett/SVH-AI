@@ -1,0 +1,94 @@
+
+body {
+    background-image: url('https://source.unsplash.com/featured/?urban');
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+.company {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    color: gold;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.nav-button a {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    color: gold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    color: gold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.content-section {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.source {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: #F7C566;
+}
+
+.image-source {
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: #F7C566;
+}
+
+h1 {
+    color: gold;
+}
+
+h2 {
+    color: gold;
+}
+
+h3 {
+    color: #F7C566;
+}
+
+p {
+    color: gold;
+}
+
+
+figure {
+    text-align: center;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 28.125%; /* Increased size */
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    border: none;
+}
