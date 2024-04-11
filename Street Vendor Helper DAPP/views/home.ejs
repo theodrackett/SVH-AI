@@ -1,0 +1,38 @@
+<%- include('./partials/header.ejs') %>
+
+<main class="container">
+    <div class="grid">
+        <section class="content-section">
+            <hgroup>
+                <h2>Welcome to Street Vendor Helper</h2>
+                <h3>Your go-to platform for discovering and rating street vending opportunities.</h3>
+            </hgroup>
+            <p>Connecting street vendors with the best vending opportunities across the city. Explore events, submit your own, and grow your business today.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?streetmarket" alt="Street Market" style="width: 50%;" />
+                <figcaption class="source">Explore bustling street markets - <a class="image-source" href="https://unsplash.com/s/photos/streetmarket" target="_blank">Image Source</a></figcaption>
+            </figure>
+            <h3>Features</h3>
+            <p>Discover vending events, submit opportunities, rate your experiences, and provide valuable feedback.</p>
+            <h3>For Organizers</h3>
+            <p>Easily submit and manage your events to attract vendors from all over.</p>
+        </section>
+    </div>
+</main>
+<section aria-label="Subscribe example">
+    <div class="container">
+        <article class="content-section">
+            <hgroup>
+                <h2>Get Started</h2>
+                <h3>Join our community of street vendors and event organizers.</h3>
+            </hgroup>
+            <form class="grid">
+                <input type="text" id="firstname" name="firstname" placeholder="Your Name" aria-label="Your Name" required />
+                <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+                <button type="submit" onclick="event.preventDefault()">Sign Up</button>
+            </form>
+        </article>
+    </div>
+</section>
+
+<%- include('./partials/footer.ejs') %>
